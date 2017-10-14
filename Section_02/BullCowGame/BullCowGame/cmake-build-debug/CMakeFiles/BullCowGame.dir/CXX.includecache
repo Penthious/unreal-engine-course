@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/tomas/projects/ue4/Section_02/BullCowGame/BullCowGame/FBullCowGame.cpp
+FBullCowGame.hpp
+/Users/tomas/projects/ue4/Section_02/BullCowGame/BullCowGame/FBullCowGame.hpp
+map
+-
+
+/Users/tomas/projects/ue4/Section_02/BullCowGame/BullCowGame/FBullCowGame.hpp
+string
+-
+
+/Users/tomas/projects/ue4/Section_02/BullCowGame/BullCowGame/main.cpp
+iostream
+-
+FBullCowGame.hpp
+/Users/tomas/projects/ue4/Section_02/BullCowGame/BullCowGame/FBullCowGame.hpp
+

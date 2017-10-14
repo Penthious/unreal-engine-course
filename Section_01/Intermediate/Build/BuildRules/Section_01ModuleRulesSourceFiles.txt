@@ -1,0 +1,3 @@
+/Users/tomas/projects/ue4/Section_01/Source/Section_01/Section_01.Build.cs
+/Users/tomas/projects/ue4/Section_01/Source/Section_01.Target.cs
+/Users/tomas/projects/ue4/Section_01/Source/Section_01Editor.Target.cs
