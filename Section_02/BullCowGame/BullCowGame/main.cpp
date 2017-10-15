@@ -59,7 +59,11 @@ FText GetValidGuess() {
     EGuessStatus Status = EGuessStatus::Invalid_Status;
     do {
         std::cout << std::endl;
-        std::cout << "Try " << BCGame.GetCurrentTry() << " Enter your guess: ";
+        std::cout << "Try "
+                  << BCGame.GetCurrentTry()
+                  << " of "
+                  << BCGame.GetMaxTries()
+                  << " Enter your guess: ";
         std::getline(std::cin, Guess);
 
         Status = BCGame.CheckGuessValidity(Guess);
