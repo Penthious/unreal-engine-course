@@ -37,7 +37,7 @@ void PlayGame() {
     BCGame.Reset();
     int32 MaxTries = BCGame.GetMaxTries();
     while(!BCGame.IsGameWon() && BCGame.GetCurrentTry() <= MaxTries){
-        FText Guess = GetValidGuess(); // TODO: check valid guess
+        FText Guess = GetValidGuess();
 
         FBullCowCount BullCowCount = BCGame.SubmitGuess(Guess);
         // Submit valid guess to the game
